@@ -56,7 +56,7 @@ string result = await kernel.Memory.SaveReferenceAsync(
 ***Query memories using Semantic Kernel:***
 
 ```c#
-string query = "Where does Joda come from?";
+string query = "Where does Yoda come from?";
 IAsyncEnumerable<MemoryQueryResult> searchResults = kernel.Memory.SearchAsync(memoryCollectionName, query); 
 
 await foreach (MemoryQueryResult memory in searchResults) {
